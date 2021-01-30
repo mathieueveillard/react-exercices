@@ -1,0 +1,15 @@
+.Bart__Framing--Red {
+  border: 10px solid red;
+}
+
+.Bart__Framing--Green {
+  border: 10px solid lightgreen;
+}
+
+.Bart__Framing--Blue {
+  border: 10px solid blue;
+}
+
+.Bart__Content {
+  padding: 3rem;
+}

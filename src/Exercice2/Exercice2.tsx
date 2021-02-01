@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../_lib/Layout";
+import WithFraming from "./WithFraming";
 import Bart from "./Bart";
 import Albatros from "./Albatros";
 import Interview from "./Interview";
@@ -11,13 +12,19 @@ export const Exercice2: React.FunctionComponent<Props> = () => {
     <Layout title='Exercice 2: composition using the render props pattern (special "children" props)'>
       <ul>
         <li className="standard-margin">
-          <Bart />
+          <WithFraming>
+            <Bart />
+          </WithFraming>
         </li>
         <li className="standard-margin">
-          <Albatros />
+          <WithFraming>
+            <Albatros />
+          </WithFraming>
         </li>
         <li className="standard-margin">
-          <Interview />
+          <WithFraming>
+            <Interview />
+          </WithFraming>
         </li>
       </ul>
     </Layout>

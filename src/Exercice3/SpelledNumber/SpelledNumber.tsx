@@ -15,9 +15,9 @@ const SPELLED_NUMBERS = [
 ];
 
 interface Props {
-  index: number;
+  n: number;
 }
 
-export const SpelledNumber: React.FunctionComponent<Props> = ({ index }) => {
-  return <span>{SPELLED_NUMBERS[minmax(0, 9)(index)]}</span>;
+export const SpelledNumber: React.FunctionComponent<Props> = ({ n }) => {
+  return <span>{SPELLED_NUMBERS[minmax(0, 9)(n)]}</span>;
 };

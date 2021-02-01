@@ -1,9 +1,9 @@
 import React from "react";
 
 interface Props {
-  index: number;
+  n: number;
 }
 
-export const Number: React.FunctionComponent<Props> = ({ index }) => {
-  return <span>{index}</span>;
+export const Number: React.FunctionComponent<Props> = ({ n }) => {
+  return <span>{n}</span>;
 };
